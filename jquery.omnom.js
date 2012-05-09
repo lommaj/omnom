@@ -103,11 +103,13 @@ need to be able to specify order of parts used for tag generation and add your o
 
             //check custom link
             if (thisLink == "#") {
-                //alert("custom");
+                //console.log(_analyticString);
+                s.tl(this,'o',_analyticString);
             }
             //check exit link
             else if ($this.hasClass('external')) {
-                //alert("exit")
+                //console.log(_analyticString);
+                s.tl(this,'e',_analyticString);
             }
             //check sprop link exists
             else {
