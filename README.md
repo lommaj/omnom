@@ -15,7 +15,9 @@ This code was created to work with a moustache.js template, I would like to make
 
 
 Usage:
+```javascript
 $.omnom();
+```
 
 With Options - Set as many selectors to append to tag:
 ```javascript
@@ -27,9 +29,6 @@ $.omnom({
     ]
 });
 ```
-attach to ajax created markup
-$('#someElement').omnom({ querystring: 'q' });
-
 
 Enjoy!
 
