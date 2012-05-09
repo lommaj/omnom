@@ -1,4 +1,4 @@
-This is omnom, a Omniture templating jQuery plugin.
+# This is omnom, a Omniture templating jQuery plugin
 
 Requires:
 
