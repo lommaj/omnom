@@ -24,6 +24,7 @@ $.omnom();
 With Options - Set as many selectors to append to tag:
 ```javascript
 $.omnom({
+    pageName: 'My Home Page',
     querystring: 'q',
     sectionTemplate: [
         { selector: ".carousel", reportingValue: "cs" },
