@@ -33,6 +33,12 @@ $.omnom({
 });
 ```
 
+Custom Call in script - (example passes current selected image from an iScroll swipe gesture gallery)
+parameters: object, linkType, linkText, options(see above templating options)
+```javascript
+$.customLinkType($('#someElement'), "custom", "gallery swipe_" + selectedImage);
+```
+
 Enjoy!
 
 John Lomma
