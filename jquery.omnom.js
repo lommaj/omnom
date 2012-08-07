@@ -139,16 +139,7 @@ jQuery.analytics || (function ($) {
             //setTimeout(window.location = l, 200);
             //console.log("external");
             return false;
-        }
-        //check sprop link exists
-        /*else if(linkType == 'sprop'){
-        var newHref = ($this.attr('href').indexOf("?") >= 0) ? $this.attr('href') + "&lid=" + _analyticString : $this.attr('href') + "?lid=" + _analyticString;
-        //console.log("lid");
-        window.location = newHref;
-        return false;
-        }
-        need a different $function all together for sprops.
-        */
+        }       
     }
     function doAnaltics(_this, options) {
         var $this = _this;
@@ -227,19 +218,5 @@ jQuery.analytics || (function ($) {
             return false;
         }
     }
-
-
-    /* for ajax data i.e: $('#somesection').analytics() or any other chainable/selector scenario might not need it because its inside a .live() ? 
-    $.fn.analytics = function (options) {
-    var options = $.extend(defaults, options);
-
-    return this.each(function () {
-    //be safe
-    var $this = $(this);
-
-
-    });
-    }; //end $.fn.analytics()
     
-    */
 })(jQuery);
