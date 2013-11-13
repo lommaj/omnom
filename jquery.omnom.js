@@ -10,7 +10,7 @@ ajax method - needs to be able to identify if its inside a top nav or footer (fi
 if class= customLinkText = get linktext from name.
 
 */
-jQuery.analytics || (function ($) {
+jQuery.omnom || (function ($) {
     //set default options
     var defaults = {
         //if querystring is passed, that will be used for analytics.  This is used for dynamic pages like products.aspx?p=d3100
@@ -58,7 +58,7 @@ jQuery.analytics || (function ($) {
     //support functions
     //------------------------------------------------------------------
 
-    $.analytics = function (options) {
+    $.omnom = function (options) {
         var options = $.extend(defaults, options);
         //fire page name
         s.pageName = options.pageName;
